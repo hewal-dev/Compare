@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="Compare"/>
+  <DisplayName value="Compare"/>
+  <Description value="Vergleicht den aktuell gehaltenen Gegenstand mit den festen Werten des ausgewählten Herstellungsrezepts."/>
+  <Author value="Eltern vs Zombies"/>
+  <Version value="1.0.5"/>
+  <Website value="https://www.youtube.com/@ElternVSZombies"/>
+  <SkipWithAntiCheat value="true"/>
+</xml>

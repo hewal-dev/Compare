@@ -1,0 +1,37 @@
+<configs>
+  <append xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']">
+    <button depth="4" name="compareButton" style="icon30px, press" pos="151,-22"
+            sprite="ui_game_symbol_swap" pivot="center" tooltip="Compare"
+            sound="[paging_click]" visible="{compareavailable}" selected="{compareshow}"/>
+  </append>
+
+  <append xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']">
+    <rect depth="6" pos="153,-43" name="comparePanel" width="447" height="303" visible="{compareshow}">
+      <sprite depth="1" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="453" height="303"
+              color="[black]" type="sliced" fillcenter="false"/>
+      <sprite depth="2" color="[darkGrey]" type="sliced" width="447" height="303"/>
+
+      <label depth="4" pos="8,-5" width="160" height="28" text="Wert" font_size="24" color="[white]"/>
+      <label depth="4" pos="170,-5" width="130" height="28" text="{compareoldname}" font_size="22" color="[beige]" justify="center"/>
+      <label depth="4" pos="305,-5" width="135" height="28" text="{comparenewname}" font_size="22" color="[beige]" justify="center"/>
+
+      <rect pos="4,-34" width="439" height="29" visible="{compareammorow}">
+        <sprite depth="2" color="[darkestGrey]" type="sliced"/>
+        <label depth="4" pos="6,-2" width="155" height="26" text="Munition" font_size="22"/>
+        <label depth="4" pos="166,-2" width="130" height="26" text="{compareoldammo}" font_size="20" justify="center"/>
+        <label depth="4" pos="301,-2" width="132" height="26" text="{comparenewammo}" font_size="20" justify="center"/>
+      </rect>
+
+      <label depth="5" pos="8,-64" width="430" height="24" text="{compareammowarning}" font_size="19"
+             color="[gold]" justify="center"/>
+
+      <rect pos="4,-88" width="439" height="29"><sprite depth="2" color="[darkestGrey]" type="sliced"/><label depth="4" pos="6,-2" width="155" text="{comparestattitle1}" font_size="22"/><label depth="4" pos="166,-2" width="130" text="{compareoldstat1}" font_size="22" justify="center"/><label depth="4" pos="301,-2" width="132" text="{comparenewstat1}" font_size="22" justify="center"/></rect>
+      <rect pos="4,-117" width="439" height="29"><sprite depth="2" color="[darkGrey]" type="sliced"/><label depth="4" pos="6,-2" width="155" text="{comparestattitle2}" font_size="22"/><label depth="4" pos="166,-2" width="130" text="{compareoldstat2}" font_size="22" justify="center"/><label depth="4" pos="301,-2" width="132" text="{comparenewstat2}" font_size="22" justify="center"/></rect>
+      <rect pos="4,-146" width="439" height="29"><sprite depth="2" color="[darkestGrey]" type="sliced"/><label depth="4" pos="6,-2" width="155" text="{comparestattitle3}" font_size="22"/><label depth="4" pos="166,-2" width="130" text="{compareoldstat3}" font_size="22" justify="center"/><label depth="4" pos="301,-2" width="132" text="{comparenewstat3}" font_size="22" justify="center"/></rect>
+      <rect pos="4,-175" width="439" height="29"><sprite depth="2" color="[darkGrey]" type="sliced"/><label depth="4" pos="6,-2" width="155" text="{comparestattitle4}" font_size="22"/><label depth="4" pos="166,-2" width="130" text="{compareoldstat4}" font_size="22" justify="center"/><label depth="4" pos="301,-2" width="132" text="{comparenewstat4}" font_size="22" justify="center"/></rect>
+      <rect pos="4,-204" width="439" height="29"><sprite depth="2" color="[darkestGrey]" type="sliced"/><label depth="4" pos="6,-2" width="155" text="{comparestattitle5}" font_size="22"/><label depth="4" pos="166,-2" width="130" text="{compareoldstat5}" font_size="22" justify="center"/><label depth="4" pos="301,-2" width="132" text="{comparenewstat5}" font_size="22" justify="center"/></rect>
+      <rect pos="4,-233" width="439" height="29"><sprite depth="2" color="[darkGrey]" type="sliced"/><label depth="4" pos="6,-2" width="155" text="{comparestattitle6}" font_size="22"/><label depth="4" pos="166,-2" width="130" text="{compareoldstat6}" font_size="22" justify="center"/><label depth="4" pos="301,-2" width="132" text="{comparenewstat6}" font_size="22" justify="center"/></rect>
+      <rect pos="4,-262" width="439" height="29"><sprite depth="2" color="[darkestGrey]" type="sliced"/><label depth="4" pos="6,-2" width="155" text="{comparestattitle7}" font_size="22"/><label depth="4" pos="166,-2" width="130" text="{compareoldstat7}" font_size="22" justify="center"/><label depth="4" pos="301,-2" width="132" text="{comparenewstat7}" font_size="22" justify="center"/></rect>
+    </rect>
+  </append>
+</configs>
