@@ -2,7 +2,7 @@
 
 ## Status
 
-Version **1.0.4** ist implementiert, kompiliert, statisch geprüft und nach `/home/hewal/7 Days/0 einzelne mods/Compare/` synchronisiert – die Portierung auf **7DTD V 3.3.0 (b18)**. **Von Hewal im Spiel bestätigt: Compare funktioniert wieder und die Zutatenliste wird bei Rezepten wieder angezeigt.**
+Version **1.0.5** ist implementiert, kompiliert, statisch geprüft und nach `/home/hewal/7 Days/0 einzelne mods/Compare/` synchronisiert — funktional unverändert gegenüber 1.0.4, nur Versionsstring und harmony-freies Paket. **Von Hewal im Spiel bestätigt: Compare funktioniert wieder und die Zutatenliste wird bei Rezepten wieder angezeigt** (Bestätigung gilt für den 1.0.4-Stand; die 1.0.5-Laufzeit ist identisch, DLL-Hash `cef4426d…`, aktiv nach dem nächsten Spielstart mit Logzeile `[Compare] Initializing Compare 1.0.5`).
 
 ## Quellcode-Veröffentlichung – 11.10.2026
 
@@ -36,6 +36,12 @@ ohne `0Harmony.dll`/`bin`/`dist`/`releases`/`media` gestellt, dort `bash build.s
 **byte-identisch** mit dem Release-Build
 (`cef4426d9ab11cf17333bc69233db107abe31d8d5a137b6791dfd7c938dd834b`). Der Live-Ordner wurde dabei
 nicht angefasst (Hash vor/nach unverändert).
+
+**Repo gegengeprüft:** public, Lizenz MIT, Topics `7daystodie`, `7-days-to-die`, `mod`, `harmony`,
+`csharp`; Remote-Tree **16 Dateien ohne Binaries/Archive**; Release **`v1.0.5`** (Latest) mit dem ZIP
+als Asset — **8.783 Bytes**, Status `uploaded`, identisch mit der lokalen Datei →
+https://github.com/hewal-dev/Compare/releases/tag/v1.0.5 · Initial-Commit `96babd3`.
+Die 1.0.5-ZIP ist zusätzlich bei Nexus hochgeladen (Hewal, 11.10.2026).
 
 ## Release-ZIP 1.0.5 – 11.10.2026 (Harmony-frei)
 
